@@ -1,12 +1,29 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background:black;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+
+  border-radius: 50%;
 }
 
 .navbar-lewagon .navbar-brand img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+
+}
+
+.avatar dropdown-toggle img {
+  border-radius: 50%;
+}
+
+#navbarDropdown {
+  border-radius: 50%;
+  height: 40px;
   width: 40px;
 }
